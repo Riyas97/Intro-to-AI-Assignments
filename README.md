@@ -26,4 +26,13 @@ To run, first proceed to `/Pacman/Code`. Then,
 - to run the A∗ graph search algorithm, run `python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic`
 - to run the corners problem, run `python pacman.py -l mediumCorners -p SearchAgent -a fn=bfs,prob=CornersProblem` 
 and/or run `python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5`
-`
+
+## Part 2: Sudoku
+For this part, the task was to design an efficient Sudoku solver either by using local search technique (such as hill climbing,
+variants of simulated annealing) or use constraints followed by backtracking search and inference.
+
+Before you run the programs, ensure you are using Python 2.7.
+
+To run, first proceed to `/Sudoku/Code`. Then, 
+
+- run `python CS3243_P2_Sudoku_00.py input/input_1.txt output.txt`
