@@ -33,6 +33,6 @@ variants of simulated annealing) or use constraints followed by backtracking sea
 
 Before you run the programs, ensure you are using Python 2.7.
 
-To run, first proceed to `/Sudoku/Code`. Then, 
+To run, first proceed to `/Sudoku/`. Then, 
 
 - run `python CS3243_P2_Sudoku_00.py input/input_1.txt output.txt`
